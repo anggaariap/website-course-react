@@ -7,7 +7,7 @@ import SyaratKetenPage from './pages/SyaratKetenPage';
 import FaqPage from './pages/FaqPage';
 
 import NavbarComponent from './components/NavbarComponent';
-// import FooterComponent from './components/FooterComponent';
+import FooterComponent from './components/FooterComponent';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <Route path="/syaratketen" Component={SyaratKetenPage}/>
     </Routes>
 
-    {/* <FooterComponent/> */}
+    <FooterComponent/>
   </div>
   );
 }
