@@ -22,17 +22,17 @@ const HomePage = () => {
             <Container>
                 <Row className="header-box d-flex align-items-center pt-lg-5">
                     <Col>
-                        <h1>
+                        <h1 className="mb-4 animate__animated animate__fadeInUp animate__delay-0.5s">
                             Temukan <br/> <span>Bakat dan Kreatifitasmu</span> <br/> bersama kami
                         </h1>
-                        <p>
+                        <p className="mb-4 animate__animated animate__fadeInUp animate__delay-0.5s">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae corporis a ex, reiciendis accusantium similique dolorum, numquam veniam ipsam, earum doloremque. Enim distinctio quidem aliquam perspiciatis animi natus ratione omnis!
                         </p>
-                        <button className="btn btn-danger btn-lg rounded-2 mr-2">Lihat Promo</button>
-                        <button className="btn btn-outline-danger btn-lg rounded-2">Lihat Kelas</button>
+                        <button className="btn btn-danger btn-lg rounded-2 mr-2 animate__animated animate__fadeInUp animate__delay-0.5s">Lihat Promo</button>
+                        <button className="btn btn-outline-danger btn-lg rounded-2 animate__animated animate__fadeInUp animate__delay-0.5s" onClick={() => navigate("/kelas")}>Lihat Kelas</button>
                     </Col>
-                    <Col>
-                        <img src={HeroImage} alt="hero" />
+                    <Col lg="6" className="pt-lg-0 pt-5">
+                        <img src={HeroImage} alt="hero" className="animate__animated animate__fadeInUp" />
                     </Col>
                 </Row>
             </Container>
