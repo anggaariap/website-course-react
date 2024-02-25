@@ -4,7 +4,7 @@ import { faq } from "../data/index";
 
 const FaqComponent = () => {
   return (
-    <div className="faq">
+    <div className="faq-page">
         <Container>
             <Row>
                 <Col>
