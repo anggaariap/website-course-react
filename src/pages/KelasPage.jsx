@@ -9,8 +9,8 @@ const KelasPage = () => {
       <Container>
         <Row>
           <Col>
-          <h1 className="text-center fw-bold">Semua kelas</h1>
-          <p className="text-center"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, ipsa quod temporibus assumenda error autem sit rerum possimus perferendis nobis facere dolorem sequi doloribus nulla nihil voluptatibus eum quae. Nostrum. </p>
+          <h1 className="text-center fw-bold animate__animated animate__fadeInUp animate__delay-0.6s">Semua kelas</h1>
+          <p className="text-center animate__animated animate__fadeInUp animate__delay-0.6s"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, ipsa quod temporibus assumenda error autem sit rerum possimus perferendis nobis facere dolorem sequi doloribus nulla nihil voluptatibus eum quae. Nostrum. </p>
           </Col>
         </Row>
         <Row>

@@ -7,8 +7,8 @@ const SyaratKetenPage = () => {
         <Container>
           <Row>
             <Col>
-              <h1 className="text-center"> Syarat & Ketentuan </h1>
-              <p className="text-center"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus impedit ut laboriosam voluptas vel beatae veniam est, qui, tenetur reprehenderit aspernatur quisquam ab, cumque animi vitae ea neque. Dignissimos, cum. </p>
+              <h1 className="text-center animate__animated animate__fadeInUp animate__delay-0.6s"> Syarat & Ketentuan </h1>
+              <p className="text-center animate__animated animate__fadeInUp animate__delay-0.6s"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus impedit ut laboriosam voluptas vel beatae veniam est, qui, tenetur reprehenderit aspernatur quisquam ab, cumque animi vitae ea neque. Dignissimos, cum. </p>
             </Col>
           </Row>
           <Row className="pt-5">

@@ -22,14 +22,14 @@ const HomePage = () => {
             <Container>
                 <Row className="header-box d-flex align-items-center pt-lg-5">
                     <Col>
-                        <h1 className="mb-4 animate__animated animate__fadeInUp animate__delay-0.5s">
+                        <h1 className="mb-4 animate__animated animate__fadeInUp animate__delay-0.6s">
                             Temukan <br/> <span>Bakat dan Kreatifitasmu</span> <br/> bersama kami
                         </h1>
-                        <p className="mb-4 animate__animated animate__fadeInUp animate__delay-0.5s">
+                        <p className="mb-4 animate__animated animate__fadeInUp animate__delay-0.6s">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae corporis a ex, reiciendis accusantium similique dolorum, numquam veniam ipsam, earum doloremque. Enim distinctio quidem aliquam perspiciatis animi natus ratione omnis!
                         </p>
-                        <button className="btn btn-danger btn-lg rounded-2 mr-2 animate__animated animate__fadeInUp animate__delay-0.5s">Lihat Promo</button>
-                        <button className="btn btn-outline-danger btn-lg rounded-2 animate__animated animate__fadeInUp animate__delay-0.5s" onClick={() => navigate("/kelas")}>Lihat Kelas</button>
+                        <button className="btn btn-danger btn-lg rounded-2 mr-2 animate__animated animate__fadeInUp animate__delay-1s">Lihat Promo</button>
+                        <button className="btn btn-outline-danger btn-lg rounded-2 animate__animated animate__fadeInUp animate__delay-1s" onClick={() => navigate("/kelas")}>Lihat Kelas</button>
                     </Col>
                     <Col lg="6" className="pt-lg-0 pt-5">
                         <img src={HeroImage} alt="hero" className="animate__animated animate__fadeInUp" />
@@ -48,7 +48,7 @@ const HomePage = () => {
                 <Row>
                     {kelasTerbaru.map((kelas) => {
                         return (
-                            <Col key={kelas.id} className="shadow rounded">
+                            <Col key={kelas.id} className="shadow rounded" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={kelas.delay}>
                                 <img src={kelas.image} alt="unsplash.com" className="w-100 mb-5 rounded-top" />
                                 <div className="star mb-3 px-3">
                                     <i className={kelas.star1}></i>
@@ -67,8 +67,8 @@ const HomePage = () => {
                     })}
                 </Row>
                 <Row>
-                    <Col className="text-center">
-                        <button className="btn btn-success rounded-5 btn-lg" onClick={() => navigate("/kelas")}>
+                    <Col className="text-center" >
+                        <button className="btn btn-success rounded-5 btn-lg" onClick={() => navigate("/kelas")} data-aos="fade-up" data-aos-duration="1000">
                             Lihat Selengkapnya
                             <i className="fa-solid fa-chevron-right ml-3"></i>
                         </button>

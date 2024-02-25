@@ -8,8 +8,8 @@ const TestimonialPage = () => {
         <Container>
           <Row className="mb-5">
             <Col>
-              <h1 className="text-center"> Semua Testimonial </h1>
-              <p className="text-center"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam sunt unde modi error odio, laudantium ut nesciunt deserunt a inventore optio quibusdam excepturi vel, iste incidunt distinctio cum impedit numquam. </p>
+              <h1 className="text-center animate__animated animate__fadeInUp animate__delay-0.6s"> Semua Testimonial </h1>
+              <p className="text-center animate__animated animate__fadeInUp animate__delay-0.6s"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam sunt unde modi error odio, laudantium ut nesciunt deserunt a inventore optio quibusdam excepturi vel, iste incidunt distinctio cum impedit numquam. </p>
             </Col>
           </Row>
           <Row className="row-cols-lg-3 row-cols-1">
